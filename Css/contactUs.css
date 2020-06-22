@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif !important;
+}
+header{
+    background: #ffffff;
+    
+}
+.navbar-brand{
+    font-weight: 900 !important;
+    font-size: 36px !important;
+    line-height: 48px !important;
+    color: #2D2D2D !important;
+}
+nav{
+    background: #ffffff !important;
+    margin-top: 100px !important;
+    margin-bottom: 70px;
+   
+}
+a{
+    text-decoration: none !important;
+}
+nav li a{
+    font-size: 24px !important;
+    line-height: 32px !important;
+    color: #2D2D2D !important;
+}
+/* Description */
+#desc{
+    margin-bottom: 80px;
+} 
+#desc h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+#desc p{
+    font-size: 24px;
+    line-height: 32px;
+    color: #929292;
+}
+/* Bio */
+.bio{
+    margin-bottom: 100px;
+}
+.bio h1{
+    font-weight: bold;
+}
+.bio a{
+    color: #2D2D2D !important;
+}
+.bio .border-top,
+.bio .border-bottom{
+    color: #2D2D2D !important;
+}
+.bio .contact-details{
+    padding-top: 30px !important;
+}
+
+/* Footer */
+#footer{
+    background: #2D2D2D;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+}
+#footer a{
+    color: #0FE7DA !important;
+}
+@media screen and (max-width:1024px){
+    .bio img{
+        width: 92% !important;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:892px){
+    #collapseDrug ul{
+        margin-left: none !important;
+    }
+    nav{
+        width: 100%;
+    }
+    #drug-description img{
+        width: 100%;
+    }
+    nav li a{
+        font-weight: bold !important;
+        font-size: 10px !important;
+    }
+    .form-group a,
+    .form-group input{
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .form-group{
+        display: block !important;
+    }
+    #latestNews .form-group{
+        margin-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    #latestNews{
+        height: 630px;
+    }
+}
+@media screen and (max-width:768px){
+    nav{
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 32px !important;
+    }
+    nav{
+        margin-top: 100px !important;
+        margin-bottom: 30px;
+        margin: none !important;
+       
+    }
+    nav li{
+        margin-right: 2px !important;
+    }
+    nav li a{
+        font-weight: bold !important;
+        font-size: 15px !important;
+        line-height: 12px !important;
+    }
+    #desc{
+        text-align: center !important;
+    }
+   .bio{
+       text-align: center !important;
+   }
+}
+@media screen and (max-width:767px){
+    nav .header-nav{
+        display: block !important;
+        text-align: center;
+    }
+    nav li{
+        margin-bottom: 15px;
+    }
+    nav li a{
+        font-weight: bold !important;
+        font-size: 20px !important;
+        line-height: 12px !important;
+    }
+
+}
+@media screen and (max-width:426px){
+    nav{
+        margin-top: 50px !important;
+        margin-bottom: 30px !important;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .bottom-footer-nav{
+        text-align: center !important;
+    }
+}
